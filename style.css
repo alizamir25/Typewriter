@@ -12,8 +12,8 @@ p{
   color: rgba(255, 255, 255, 0.856);
 }
 p{
-  animation: animated-text 4s steps(29,end) 1s 1 normal both,
-             animated-cursor 600ms steps(29,end) infinite;
+  animation: animated-text 5s steps(29,end) 1s 1 normal both,
+             animated-cursor 400ms steps(29,end) infinite;
 }
 @keyframes animated-text{
   from{width: 0;}
