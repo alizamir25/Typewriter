@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 body{
   padding: 60px;
-  background-color: #121212;  
+  background-color: #272727;  
 }
 p{
-  border-right: solid 4px rgba(0,255,0,.75);
+  border-right: solid 4px rgba(38, 255, 38, 0.945);
   white-space: nowrap;
   overflow: hidden;    
   font-family: 'Source Code Pro', monospace;  
   font-size: 232px;
-  color: rgba(255,255,255,.70);
+  color: rgba(255, 255, 255, 0.856);
 }
 p{
   animation: animated-text 4s steps(29,end) 1s 1 normal both,
@@ -20,6 +20,6 @@ p{
   to{width: 450px;}
 }
 @keyframes animated-cursor{
-  from{border-right-color: rgba(0,255,0,.75);}
+  from{border-right-color: rgba(0, 255, 0, 0.877);}
   to{border-right-color: transparent;}
 }
